@@ -1,0 +1,34 @@
+{
+  "name": "atomicals",
+  "version": "1.0.0",
+  "description": "Node module to aid Bitcoin atomicals developers",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/disco-quotidie/atomicals-dev-kit.git"
+  },
+  "keywords": [
+    "bitcoin",
+    "atomicals",
+    "arc20",
+    "dmint",
+    "realmname"
+  ],
+  "author": "disco.quotidie@outlook.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/disco-quotidie/atomicals-dev-kit/issues"
+  },
+  "homepage": "https://github.com/disco-quotidie/atomicals-dev-kit#readme",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
