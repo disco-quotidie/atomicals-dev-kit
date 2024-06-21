@@ -1,6 +1,6 @@
 {
   "name": "atomicals",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Node Module to Aid Bitcoin Atomicals Developers",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
